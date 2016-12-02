@@ -12,7 +12,6 @@ class Panel extends React.Component {
     let newState = {
       number: this.state.number + 1
     };
-    debugger
     this.setState(newState)
   };
   render(){
